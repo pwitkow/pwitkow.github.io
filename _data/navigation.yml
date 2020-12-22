@@ -1,0 +1,15 @@
+docs_list_title: Navigation
+docs:
+
+- title: Homepage
+  url: index.html
+
+- title: About Me
+  url: about.html
+  
+- title: Research
+  url: projects.html
+  
+- title: CV
+  url: pwitkowski_cv.pdf
+

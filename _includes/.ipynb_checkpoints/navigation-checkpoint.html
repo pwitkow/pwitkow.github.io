@@ -1,0 +1,17 @@
+<style>
+
+    nav ul li {
+        list-style-type: none;
+        width: 150px;
+        float: left;
+    }
+    
+</style>
+
+<nav>
+    <ul>
+       {% for item in site.data.navigation.docs %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+       {% endfor %}
+    </ul>
+</nav>
